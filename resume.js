@@ -59,7 +59,7 @@ var resume = new Vue({
                 end: 'Aug 2016',
                 duties: [
                     'Designed a WinForm app and automated testing framework using NUnit, .NET, and C#',
-                    'Built scalable framework to run 200+ test cases and report progress to SQL databases',
+                    'Built a scalable framework to run 200+ test cases and report progress to SQL databases',
                     'Tested high-volume MVC web apps dealing with time sensitive data and CC information',
                     'Developed test scripts using Selenium, REST and SOAP APIs on different environments',
                     'Added exception handling to MEAN application running user submitted code',

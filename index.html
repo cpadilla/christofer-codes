@@ -119,9 +119,9 @@
                             <ul>
                                 <template v-for="(project, index) in projects">
                                     <li>{{project}}
-                                        <span v-if="index == 2">: <a v-if="index == 2" v-bind:href="webapp">{{webapp}}</span>
-                                        <span v-if="index == 3"> on <a v-if="index == 3" v-bind:href="github">Github</span>
-                                        <span v-if="index == 4"> on <a v-if="index == 4" v-bind:href="twitch">{{twitch}}</span>
+                                        <span v-if="index == 2">: <a v-if="index == 2" v-bind:href="webapp">{{webapp}}</a></span>
+                                        <span v-if="index == 3"> on <a v-if="index == 3" v-bind:href="github">Github</a></span>
+                                        <span v-if="index == 4"> on <a v-if="index == 4" v-bind:href="twitch">{{twitch}}</a></span>
                                     </li>
                                 </template>
                             </ul>

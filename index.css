@@ -51,6 +51,7 @@ h5 {
 
 #title {
     font-family: 'Jura', sans-serif;
+    padding-bottom: -10px;
     border-bottom: 5px solid black;
     margin-bottom: 2rem;
 }
@@ -234,7 +235,7 @@ h5 {
 }
 
 #experience {
-    padding-bottom: 10px;
+
 }
 
 #experience h5 {

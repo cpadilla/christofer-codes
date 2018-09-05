@@ -1,21 +1,149 @@
 #resume {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
 
+.sidepanel {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color: #2b3a51; */
+    /* background-color: rgb(87, 160, 255); */
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* border-right: 1px solid rgb(87, 160, 255); */
+}
+
+.body {
+    font-size: 1.4rem;
+    width: 100%;
+    max-width: 60rem;
+}
+
+.body ul {
+    font-size: 1.1rem;
+    list-style-type: disc;
+}
+
+.content {
+    margin-right: 4rem;
+    height: 100vh;
+}
+
+h5 {
+    width: fit-content;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid black;
+}
+
+.titleContainer {
+    width: 100%;
+}
+
+#title {
+    border-bottom: 5px solid black;
+    margin-bottom: 2rem;
+}
+
+.headerContainer {
+    display: flex;
+    align-self: baseline;
+    padding-top: 10rem;
+    top: 0px;
+    list-style-type: none;
+    font-size: 1.7rem;
+    padding-left: 1rem;
+}
+
+.headerContainer ul {
+    font-size: 1.4rem;
+}
+
+.headerContainer li {
+    display: list-item;
+    list-style: none;
 }
 
 #header {
+    /* color: white; */
+}
 
+#header ul {
+    margin-bottom: 0;
+}
+
+#header h2 {
+    width: fit-content;
+    text-align: center;
+    font-weight: 530;
+    letter-spacing: .8rem;
+    font-size: .8em;
+    padding-top: 5rem;
+    margin-left: 1rem;
+    padding-bottom: .2rem;
+    border-bottom: 0.5rem solid black;
+    margin-bottom: 2rem;
+}
+
+#header .icon {
+    padding-bottom: 3rem;
+}
+
+#header img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 200px;
+    /* padding-bottom: 6rem; */
 }
 
 #name {
 
 }
 
+#aboutMe {
+    text-align: justify;
+    max-width: 18rem;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+
 #contact {
 
 }
 
+#contact li {
+    font-size: 1.1rem;
+}
+
+#contact i {
+    font-size: 1.5rem;
+    width: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 #phone {
 
+}
+
+#phone i {
+    font-size: 1.5rem;
+    width: .8rem;
+    padding-left: 2.3rem;
+    padding-right: 2rem;
 }
 
 #email {
@@ -26,36 +154,70 @@
 
 }
 
-#objective {
+#objectiveHeader {
+    font-weight: bold;
+}
 
+#objective {
+    font-size: .8em;
+    margin-bottom: 2rem;
+}
+
+.middleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.split {
+    max-width: 26rem;
+    width: 50%;
+    padding-right: 2rem;
 }
 
 #education {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+#education h5 {
 
 }
 
-#education h2 {
-
+.schoolInfo {
+    display: flex;
+    justify-content: space-between;
 }
 
 #education .schoolName {
-
 }
 
 #education .schoolStudy {
-
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    padding-bottom: 0;
+    line-height: 1;
 }
 
 #education .schoolEnd {
+    font-style: italic;
+}
 
+#education ul {
+    margin-bottom: 0;
 }
 
 #classes {
 
 }
 
-#classes .course {
+.courseInfo {
+    display: flex;
+    align-items: flex-start;
+    font-size: .8em;
+}
 
+#classes .course {
+ 
 }
 
 #classes .className {
@@ -66,134 +228,171 @@
 
 }
 
-#exprience {
+#experience {
+    padding-bottom: 10px;
+}
+
+#experience h5 {
 
 }
 
-#exprience h2 {
-
+#experience .jobHeader {
+    display: flex;
+    justify-content: space-between;
 }
 
-#exprience .jobHeader {
-
+#experience .jobHeader .title {
+    font-weight: bold;
 }
 
-#exprience .jobHeader .title {
-
+#experience .company {
+    font-style: italic;
 }
 
-#exprience .jobHeader .company {
-
+#experience .duties {
+    /* font-size: .8em; */
+    margin-bottom: 1em;
 }
 
-#exprience .jobHeader .start {
-
-}
-
-#exprience .jobHeader .end {
-
-}
-
-#exprience .duties {
-
-}
-
-#exprience .duties li {
-
+#experience .duties li {
+    margin-bottom: 0;
 }
 
 #languages {
-
+    padding-right: 0;
 }
 
-#languages h2 {
-
+#languages p {
+    font-style: italic;
+    margin-bottom: 0;
 }
 
 #languages ul {
-
+    margin-bottom: 0;
 }
 
 #languages ul li {
-
+    font-size: .9em;
+    margin-bottom: 0;
 }
 
 #skills {
-
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
-#skills h2 {
+#skills h5 {
 
 }
 
 #skills ul {
-
+    margin-bottom: 0;
 }
 
 #skills ul li {
-
+    /* font-size: .8em; */
+    margin-bottom: 0;
 }
 
 #extracurricular {
 
 }
 
-#extracurricular h2 {
+#extracurricular h5 {
 
 }
 
 #extracurricular ul {
-
+    columns: 2;
+    margin-bottom: 1rem;
 }
 
 #extracurricular ul li {
+    /* font-size: .8em; */
+    margin-bottom: 0;
+}
 
+#interests {
+
+}
+
+#interests h5 {
+
+}
+
+#interests ul {
+    padding-left: 1rem;
+    columns: 2;
+    margin-bottom: 0;
+}
+
+#interests li {
+    font-size: 1.1rem;
+}
+
+#interests i {
+    font-size: 1.5rem;
+    width: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 #hobbies {
 
 }
 
-#hobbies h2 {
+#hobbies h5 {
 
 }
 
 #hobbies ul {
-
+    padding-left: 1rem;
+    columns: 2;
+    margin-bottom: 0;
 }
 
-#hobbies ul li {
+#hobbies li {
+    font-size: 1.1rem;
+}
 
+#hobbies i {
+    font-size: 1.5rem;
+    width: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 #projects {
 
 }
 
-#projects h2 {
+#projects h5 {
 
 }
 
 #projects ul {
-
+    margin-bottom: 1rem;
 }
 
 #projects ul li {
-
+    /* font-size: .8em; */
+    margin-bottom: 0;
 }
 
 #honors {
 
 }
 
-#honors h2 {
+#honors h5 {
 
 }
 
 #honors ul {
-
+    columns: 3;
+    margin-bottom: 1rem;
 }
 
 #honors ul li {
-
+    /* font-size: .8em; */
+    margin-bottom: 0;
 }

@@ -2,10 +2,14 @@ var resume = new Vue({
     el: '#resume',
     data: {
         name: 'Christofer Padilla',
+        firstName: 'Christofer',
+        lastName: 'Padilla',
+        nickname: 'Chris',
         email: 'christoferpadilla@gmail.com',
         phone: '4074912791', 
         github: 'https://github.com/cpadilla',
-        objective: 'A passionate developer who enjoys designing elegant interfaces, architecting ingenius solutions to large-scale problems, and refining his craft by continuosly learning. Seeking a challenging position at an innovative company with progressive mission goals.',
+        about: 'I am a passionate developer who enjoys designing elegant interfaces, architecting sophisticated solutions, and refining my craft learning the latest technologies.',
+        objective: "Seeking a fufilling and challenging position at an innovative company with progressive mission goals and in order to positively impact customers' experiences.",
         education: [
             {
                 name: 'University of Central Florida',
@@ -55,9 +59,9 @@ var resume = new Vue({
                 end: 'Aug 2016',
                 duties: [
                     'Architected WinForm app and automated testing framework using NUnit, .NET, and C#',
-                    'Built framework to be scalable, run test cases and report progress to SQL databases',
-                    'Tested high-volume MVC web applications dealing with time sensitive data and CC information',
-                    'Developed test scripts using Selenium, REST and SOAP APIs for different testing environments',
+                    'Built scalable framework to run 200+ test cases and report progress to SQL databases',
+                    'Tested high-volume MVC web apps dealing with time sensitive data and CC information',
+                    'Developed test scripts using Selenium, REST and SOAP APIs on different environments',
                     'Added exception handling to MEAN application running user submitted code',
                     'Used Docker to improve our test framework and better integrate with build CI'
                 ]
@@ -76,7 +80,6 @@ var resume = new Vue({
             }
         ],
         languages: [
-            'VS',
             'Vim',
             'C#/.NET',
             'Java',
@@ -91,29 +94,32 @@ var resume = new Vue({
             'Mongo'
         ],
         skills: [
-            'Strong comprehension of OOP and working with third party librarys and frameworks',
-            'Highly resourceful programmer with excellent debuggin and documentating skills'
+            'Strong comprehension of OOP and working with third party libraries and frameworks',
+            'Highly resourceful programmer with excellent debugging and documentating skills'
         ],
         extracurricular: [
             'FIRST Robotics Team (Lead Programmer)',
-            'Timber Creek High School Programming Team (Team Captain)',
-            'UCF Programmin Team Practices',
+            'T.C.H.S. Programming Team (Team Captain)',
+            'UCF Programming Team Practices',
             'Game Dev Knights'
         ],
         hobbies: [
             'Rockclimbing',
-            'Guitar',
+            'Space',
             'Skateboarding',
             'Reading',
-            'Gaming',
-            'Camping'
+            'Graphics',
+            'Tattoos'
         ],
         projects: [
-            'Programmed games in Dark Basic, Monogame, Java, Javascript, C#, Python, Unity, and Unreal',
-            'Experience working with OpenGL ES, GLSL, SDL, and Oculus Rift',
-            'Frequently participate in Game Jams, working collaboratively using version control',
-            'Hosted and contributed to various open source projects on GitHub'
+            'Programmed games in Monogame, Java, Javascript, C#, OpenGL ES, Python, Unity, and Unreal',
+            'Frequently participate in Game Jams, working collaboratively with others using git',
+            'Built a responsive web app using Node, React, Sass and Mongo',
+            'Hosted and contributed to various open source projects',
+            'Broadcast programming projects live'
         ],
+        webapp: 'https://goog.lg/5kq2cv',
+        twitch: 'https://twitch.tv/rockzombie2',
         honors: [
             {
                 honor: 'Eagle Scout Mentor Pin',
@@ -132,5 +138,14 @@ var resume = new Vue({
                 year: '2010'
             }
         ]
+    },
+    filters: {
+        capitalize: function capitalize(value) {
+            if (!value) return '';
+            value = value.toString();
+            return value.charAt(0).toUpperCase() + capitalize(value.slice(1));
+        }
     }
 })
+
+fitty('#title');

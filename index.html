@@ -1,111 +1,149 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Christofer Padilla</title>
-        <link rel="stylesheet" href="index.css">
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    </head>
-    <body>
-        <div id="resume">
-            <div id="header">
-                <div id="name">
-                    {{name}}
-                </div>
-                <div id="contact">
-                    <div id="phone">
-                        {{phone}}
+
+<head>
+    <title>Christofer Padilla's Resume</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="resume" class="container">
+        <div class="row">
+            <div class="sidepanel four columns">
+                <div class="headerContainer">
+                    <div id="header">
+                        <div class="icon">
+                            <img src="images/icon.png"></img>
+                        </div>
+
+                        <h2>ABOUT ME</h2>
+                        <div id="aboutMe">
+                            {{about}}
+                        </div>
+
+
+                        <h2>CONTACT</h2>
+                        <div id="contact">
+                            <ul>
+                                <li id="phone">
+                                    <i class="fas fa-mobile-alt"></i>{{phone}}
+                                </li>
+                                <li id="email">
+                                    <i class="fas fa-at"></i><a v-bind:href="'mailto:' + email">{{email}}</a>
+                                </li>
+                                <li id="github">
+                                    <i class="fab fa-github"></i><a v-bind:href="github">{{github}}</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h2>INTERESTS</h2>
+                        <div id="interests">
+                            <ul>
+                                <template v-for="hobby in hobbies">
+                                    <li>{{hobby}}</li>
+                                </template>
+                            </ul>
+                        </div>
                     </div>
-                    <div id="email">
-                        {{email}}
-                    </div>
-                    <div id="github">
-                        {{github}}
-                    </div>
-                </div>
-                <div id="objective">
-                    {{objective}}
                 </div>
             </div>
-            <div id="education">
-                <h2>Education</h2>
-                <template v-for="school in education">
-                    <div class="schoolName">{{ school.name }}</div>
-                    <div class="schoolStudy">{{ school.study }}</div>
-                    <div class="schoolEnd">{{ school.end }}</div>
-                </template>
-                <div id="classes">
-                    <template v-for="course in classes">
-                        <div class="course">{{ course.course }}</div>
-                        <div class="className">{{ course.name }}</div>
-                        <div class="classSummary">{{ course.summary }}</div>
-                    </template>
-                </div>
-            </div>
-            <div id="experience">
-                <h2>Experience</h2>
-                <template v-for="job in experience">
-                    <div class="jobHeader">
-                        <div class="title">{{job.title}}</div>
-                        <div class="company">{{job.company}}</div>
-                        <div class="start">{{job.start}}</div>
-                        <div class="end">{{job.end}}</div>
+            <div class="body eight columns">
+                <div class="content">
+                    <div class="titleContainer">
+                        <div id="title">{{nickname | capitalize}} {{lastName | capitalize}}</div>
                     </div>
-                    <ul class="duties">
-                        <template v-for="duty in job.duties">
-                            <li>{{duty}}</li>
-                        </template>
-                    </ul>
-                </template>
-            </div>
-            <div id="languages">
-                <h2>Languages</h2>
-                <ul>
-                    <template v-for="language in languages">
-                        <li>{{language}}</li>
-                    </template>
-                </ul>
-            </div>
-            <div id="skills">
-                <h2>Skills</h2>
-                <ul>
-                    <template v-for="skill in skills">
-                        <li>{{skill}}</li>
-                    </template>
-                </ul>
-            </div>
-            <div id="extracurricular">
-                <h2>Extracurricular</h2>
-                <ul>
-                    <template v-for="extra in extracurricular">
-                        <li>{{extra}}</li>
-                    </template>
-                </ul>
-            </div>
-            <div id="hobbies">
-                <h2>Hobbies</h2>
-                <ul>
-                    <template v-for="hobby in hobbies">
-                        <li>{{hobby}}</li>
-                    </template>
-                </ul>
-            </div>
-            <div id="projects">
-                <h2>Projects</h2>
-                <ul>
-                    <template v-for="project in projects">
-                        <li>{{project}}</li>
-                    </template>
-                </ul>
-            </div>
-            <div id="honors">
-                <h2>Honors</h2>
-                <ul>
-                    <template v-for="honor in honors">
-                        <li>{{honor.honor}} ({{honor.year}})</li> 
-                    </template>
-                </ul>
+                    <div class="innerContent">
+                        <div id="objectiveHeader">
+                            <h5>OBJECTIVE</h5>
+                        </div>
+                        <div id="objective">
+                            {{objective}}
+                        </div>
+
+                        <div>
+                            <div id="education">
+                                <div class="middleContainer">
+                                    <div class="split">
+                                        <h5>EDUCATION</h5>
+                                        <template v-for="school in education">
+                                            <div class="schoolInfo">
+                                                <div class="schoolName">{{ school.name }}</div>
+                                                <div class="schoolEnd">{{ school.end }}</div>
+                                            </div>
+                                            <ul>
+                                                <li class="schoolStudy">{{ school.study }}</div>
+                                            </ul>
+                                        </template>
+                                    </div>
+                                    <div class="split" id="languages">
+                                        <h5>SKILLS</h5>
+                                        <p>
+                                            <span v-for="(language,index) of languages">
+                                                {{language}}<span v-if="index != Object.keys(languages).length - 1">,</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="experience">
+                            <h5>EXPERIENCE</h5>
+                            <template v-for="job in experience.slice(0,2)">
+                                <div class="jobHeader">
+                                    <div class="title">{{job.title}}</div>
+                                    <div>
+                                        <div class="start">{{job.start}} - {{job.end}}</div>
+                                    </div>
+                                </div>
+                                <div class="company">{{job.company}}</div>
+                                <ul class="duties">
+                                    <template v-for="duty in job.duties">
+                                        <li>{{duty}}</li>
+                                    </template>
+                                </ul>
+                            </template>
+                        </div>
+                        <div id="projects">
+                            <h5>PROJECTS</h5>
+                            <ul>
+                                <template v-for="(project, index) in projects">
+                                    <li>{{project}}
+                                        <span v-if="index == 2">: <a v-if="index == 2" v-bind:href="webapp">{{webapp}}</span>
+                                        <span v-if="index == 3"> on <a v-if="index == 3" v-bind:href="github">Github</span>
+                                        <span v-if="index == 4"> on <a v-if="index == 4" v-bind:href="twitch">{{twitch}}</span>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                        <div id="extracurricular">
+                            <h5>EXTRACURRICULAR</h5>
+                            <ul>
+                                <template v-for="extra in extracurricular">
+                                    <li>{{extra}}</li>
+                                </template>
+                            </ul>
+                        </div>
+                        <div id="honors">
+                            <h5>HONORS</h5>
+                            <ul>
+                                <template v-for="honor in honors.slice(0,3)">
+                                    <li>{{honor.honor}} ({{honor.year}})</li>
+                                </template>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <script src="resume.js"></script>
-    </body>
+    </div>
+    <script src="fitty.min.js"></script>
+    <script src="resume.js"></script>
+</body>
+
 </html>

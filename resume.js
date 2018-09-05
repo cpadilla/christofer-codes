@@ -7,6 +7,7 @@ var resume = new Vue({
         nickname: 'Chris',
         email: 'christoferpadilla@gmail.com',
         phone: '4074912791', 
+        portfolio: 'http://christofer.rocks',
         github: 'https://github.com/cpadilla',
         about: 'I am a passionate developer who enjoys designing elegant interfaces, architecting sophisticated solutions, and refining my craft learning the latest technologies.',
         objective: "Seeking a fufilling and challenging position at an innovative company with progressive mission goals in order to positively impact customers' experiences.",

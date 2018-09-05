@@ -1,7 +1,9 @@
 #resume {
     display: flex;
-    margin-left: 0;
-    margin-right: 0;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     /* padding-top: 20px;
     padding-bottom: 20px; */

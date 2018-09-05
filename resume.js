@@ -118,7 +118,7 @@ var resume = new Vue({
             'Hosted and contributed to various open source projects',
             'Broadcast programming projects live'
         ],
-        webapp: 'https://goog.lg/5kq2cv',
+        webapp: 'https://goo.gl/5kq2cv',
         twitch: 'https://twitch.tv/rockzombie2',
         honors: [
             {

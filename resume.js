@@ -9,7 +9,7 @@ var resume = new Vue({
         phone: '4074912791', 
         github: 'https://github.com/cpadilla',
         about: 'I am a passionate developer who enjoys designing elegant interfaces, architecting sophisticated solutions, and refining my craft learning the latest technologies.',
-        objective: "Seeking a fufilling and challenging position at an innovative company with progressive mission goals and in order to positively impact customers' experiences.",
+        objective: "Seeking a fufilling and challenging position at an innovative company with progressive mission goals in order to positively impact customers' experiences.",
         education: [
             {
                 name: 'University of Central Florida',

@@ -151,4 +151,4 @@ var resume = new Vue({
     }
 })
 
-fitty('#title');
+// fitty('#title');

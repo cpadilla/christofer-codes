@@ -116,7 +116,7 @@ var resume = new Vue({
         ],
         projects: [
             'Programmed games in Monogame, Java, Javascript, C#, OpenGL ES, Python, Unity, and Unreal',
-            'Frequently participate in Game Jams, working collaboratively with others using git',
+            'Won 3rd place at the Indie Galactic Space Jam 2018 with game using UE4 and EEG Sensor',
             'Built a responsive web app using Node, React, Sass and Mongo',
             'Hosted and contributed to various open source projects',
             'Broadcast programming projects live'

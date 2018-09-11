@@ -104,7 +104,7 @@
 
                         <div id="experience">
                             <h5>EXPERIENCE</h5>
-                            <template v-for="job in experience.slice(0,2)">
+                            <template v-for="job in experience.slice(0,3)">
                                 <div class="jobHeader">
                                     <div class="title">{{job.title}}</div>
                                     <div>
@@ -113,7 +113,7 @@
                                 </div>
                                 <div class="company">{{job.company}}</div>
                                 <ul class="duties">
-                                    <template v-for="duty in job.duties">
+                                    <template v-for="duty in job.duties.slice(0,3)">
                                         <li>{{duty}}</li>
                                     </template>
                                 </ul>

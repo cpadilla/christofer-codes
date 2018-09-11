@@ -61,9 +61,9 @@ var resume = new Vue({
                 duties: [
                     'Designed a WinForm app and automated testing framework using NUnit, .NET, and C#',
                     'Built a scalable framework to run 200+ test cases and report progress to SQL databases',
-                    'Tested high-volume MVC web apps dealing with time sensitive data and CC information',
                     'Developed test scripts using Selenium, REST and SOAP APIs on different environments',
                     'Added exception handling to MEAN application running user submitted code',
+                    'Tested high-volume MVC web apps dealing with time sensitive data and CC information',
                     'Used Docker to improve our test framework and better integrate with build CI'
                 ]
             },
@@ -74,9 +74,9 @@ var resume = new Vue({
                 end: 'Feb 2013',
                 duties: [
                     'Worked in C++ to test and develop GL Studio, a simulation development tool',
+                    'Utilized Python scripts to generate code completion files',
                     'Experienced working on cross-platform product with build tools and version control',
-                    'Wrote unit tests and in-house IDL files, performed release testing and QA',
-                    'Utilized Python scripts to generate code completion files'
+                    'Wrote unit tests and in-house IDL files, performed release testing and QA'
                 ]
             }
         ],
@@ -151,4 +151,4 @@ var resume = new Vue({
     }
 })
 
-fitty('#title');
+// fitty('#title');

@@ -46,6 +46,8 @@ h5 {
 }
 
 .titleContainer {
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 

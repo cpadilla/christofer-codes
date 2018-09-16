@@ -92,6 +92,7 @@ var resume = new Vue({
             'Node.js',
             'React.js',
             'Vue.js',
+            'GLSL',
             'XML',
             'SQL',
             'Mongo'

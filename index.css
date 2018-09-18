@@ -176,6 +176,7 @@ h5 {
 .middleContainer {
     display: flex;
     justify-content: space-between;
+    max-height: 12 rem;
 }
 
 .split {

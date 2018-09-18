@@ -99,6 +99,12 @@
                                         </p>
                                     </div>
                                 </div>
+                                <div>
+                                    <h5>RELEVANT COURSEWORK</h5>
+                                    <span v-for="(course,index) of classes">
+                                        {{course.name}}<span v-if="index != Object.keys(classes).length - 1">,</span>
+                                    </span>
+                                </div>
                             </div>
                         </div>
 
@@ -113,7 +119,7 @@
                                 </div>
                                 <div class="company">{{job.company}}</div>
                                 <ul class="duties">
-                                    <template v-for="duty in job.duties.slice(0,3)">
+                                    <template v-for="duty in job.duties.slice(0,2)">
                                         <li>{{duty}}</li>
                                     </template>
                                 </ul>
@@ -125,8 +131,7 @@
                                 <template v-for="(project, index) in projects">
                                     <li>{{project}}
                                         <span v-if="index == 2">: <a v-if="index == 2" v-bind:href="webapp">{{webapp}}</a></span>
-                                        <span v-if="index == 3"> on <a v-if="index == 3" v-bind:href="github">Github</a></span>
-                                        <span v-if="index == 4"> on <a v-if="index == 4" v-bind:href="twitch">{{twitch}}</a></span>
+                                        <span v-if="index == 3"> on <a v-if="index == 3" v-bind:href="twitch">{{twitch}}</a></span>
                                     </li>
                                 </template>
                             </ul>
@@ -143,7 +148,7 @@
                             <h5>HONORS</h5>
                             <ul>
                                 <template v-for="honor in honors.slice(0,3)">
-                                    <li>{{honor.honor}} ({{honor.year}})</li>
+                                    <li>{{honor.honor}}</li>
                                 </template>
                             </ul>
                         </div>

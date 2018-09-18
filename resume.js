@@ -31,13 +31,38 @@ var resume = new Vue({
             },
             {
                 course: 'COP 4331',
-                name: 'Process for Object-Oriented Software',
+                name: 'Processes of OO',
                 summary: 'Created Hotel CRM web app using Laravel'
             },
             {
-                course: 'COP 4020',
+                course: 'COP 3503',
+                name: 'Computer Science II',
+                summary: 'Learned intermediate data structures'
+            },
+            {
+                course: 'COP 4934',
+                name: 'Senior Design',
+                summary: 'Converted a concurrent data structure library to submit to the C++ Boost library'
+            },
+            {
+                course: 'CAP 4720',
+                name: 'Computer Graphics',
+                summary: 'Learned fundementals of computer graphics'
+            },
+            {
+                course: 'CIS 3360',
+                name: 'Security in Computing',
+                summary: 'Learned fundementals of security in computing'
+            },
+            {
+                course: 'COP 4949',
                 name: 'Programming Languages',
                 summary: 'Learned Haskell and built a server logger in Erlang'
+            },
+            {
+                course: 'COP 3402',
+                name: 'Systems Software',
+                summary: 'Learned fundementals of systems software'
             }
         ],
         experience: [
@@ -47,8 +72,8 @@ var resume = new Vue({
                 start: 'September 2016',
                 end: 'Present',
                 duties: [
-                    'Implemented client/server side features for GIFT, an intelligent tutoring framework',
-                    'Developed front end features using Java, HTML, GWT, Bootstrap, and CSS',
+                    'Implemented front and back end features using Java, GWT, and Bootstrap for an intelligent tutoring system with 1500+ users in 76 countries',
+                    'Programmatically enforced coding standards using bash, fixing 230+ files in code repository',
                     'Implemented UI tabs and pagination for editing surveys',
                     'Participated in code reviewing with peers and authored inline and online documentation'
                 ]
@@ -59,12 +84,12 @@ var resume = new Vue({
                 start: 'Mar 2014',
                 end: 'Aug 2016',
                 duties: [
-                    'Designed a WinForm app and automated testing framework using NUnit, .NET, and C#',
-                    'Built a scalable framework to run 200+ test cases and report progress to SQL databases',
-                    'Developed test scripts using Selenium, REST and SOAP APIs on different environments',
-                    'Added exception handling to MEAN application running user submitted code',
+                    'Built a scalable test framework using NUnit, C#/.NET to run 200+ test cases on 3 different environments and generate daily progress reports to SQL databases',
+                    'Developed a WinForm utility for quality assurance engineers to book tee times using REST APIs, reducing task time by 90%', 
                     'Tested high-volume MVC web apps dealing with time sensitive data and CC information',
-                    'Used Docker to improve our test framework and better integrate with build CI'
+                    'Used Docker to improve our test framework and better integrate with build CI',
+                    'Developed test scripts using Selenium, REST and SOAP APIs on different environments',
+                    'Added exception handling to MEAN application running user submitted code'
                 ]
             },
             {
@@ -73,8 +98,8 @@ var resume = new Vue({
                 start: 'Mar 2012',
                 end: 'Feb 2013',
                 duties: [
-                    'Worked in C++ to test and develop GL Studio, a simulation development tool',
-                    'Utilized Python scripts to generate code completion files',
+                    'Learned Python in 1 day to generate code-completion files, completing task 1 week early',
+                    'Learned C++ to test and develop GL Studio, a cross platform simulation dev tool',
                     'Experienced working on cross-platform product with build tools and version control',
                     'Wrote unit tests and in-house IDL files, performed release testing and QA'
                 ]
@@ -82,28 +107,30 @@ var resume = new Vue({
         ],
         languages: [
             'Vim',
-            'C#/.NET',
+            'C#/LINQ/.NET',
             'Java',
-            'HTML',
             'Javascript',
-            'CSS',
             'C/C++',
-            'Python',
-            'Node.js',
-            'React.js',
+            'HTML',
+            'CSS',
             'Vue.js',
+            'Node.js',
+            'Python',
+            'React.js',
+            'OpenGL',
             'GLSL',
             'XML',
             'SQL',
-            'Mongo'
+            'Mongo',
+            'Haskell'
         ],
         skills: [
             'Strong comprehension of OOP and working with third party libraries and frameworks',
             'Highly resourceful programmer with excellent debugging and documentating skills'
         ],
         extracurricular: [
+            'Skateboarding Club (President)',
             'FIRST Robotics Team (Lead Programmer)',
-            'T.C.H.S. Programming Team (Team Captain)',
             'UCF Programming Team Practices',
             'Game Dev Knights'
         ],
@@ -116,15 +143,18 @@ var resume = new Vue({
             'Tattoos'
         ],
         projects: [
-            'Programmed games in Monogame, Java, Javascript, C#, OpenGL ES, Python, Unity, and Unreal',
+            'Programmed games in C#, Monogame, Java, Javascript, OpenGL, Python, Unity, and UE4',
             'Won 3rd place at the Indie Galactic Space Jam 2018 with game using UE4 and EEG Sensor',
-            'Built a responsive web app using Node, React, Sass and Mongo',
-            'Hosted and contributed to various open source projects',
+            'Built a responsive web app to learn Node, React, Sass and Mongo',
             'Broadcast programming projects live'
         ],
         webapp: 'https://goo.gl/5kq2cv',
         twitch: 'https://twitch.tv/rockzombie2',
         honors: [
+            {
+                honor: 'BSA Eagle Scout',
+                year: '2011'
+            },
             {
                 honor: 'Eagle Scout Mentor Pin',
                 year: '2015'
@@ -132,10 +162,6 @@ var resume = new Vue({
             {
                 honor: 'NBC Universal GEM Award',
                 year: '2014'
-            },
-            {
-                honor: 'BSA Eagle Scout',
-                year: '2011'
             },
             {
                 honor: "FIRST Florida Regional Chairman's Award",

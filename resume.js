@@ -136,11 +136,13 @@ var resume = new Vue({
         ],
         hobbies: [
             'Rockclimbing',
-            'Space',
+            'Game Dev',
             'Skateboarding',
+            'Acoustic Guitar',
             'Reading',
             'Graphics',
-            'Tattoos'
+            'Tattoos',
+            'Yoga',
         ],
         projects: [
             'Programmed games in C#, Monogame, Java, Javascript, OpenGL, Python, Unity, and UE4',

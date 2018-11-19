@@ -9,6 +9,7 @@ var resume = new Vue({
         phone: '4074912791', 
         portfolio: 'http://christofer.rocks',
         github: 'https://github.com/cpadilla',
+        twitch: 'https://twitch.tv/rockzombie2',
         about: 'I am a passionate developer who enjoys designing elegant interfaces, architecting sophisticated solutions, and refining my craft learning the latest technologies.',
         objective: "Seeking a fufilling and challenging position at an innovative company with progressive mission goals in order to positively impact customers' experiences.",
         education: [
@@ -139,19 +140,18 @@ var resume = new Vue({
             'Game Dev',
             'Skateboarding',
             'Acoustic Guitar',
-            'Reading',
             'Graphics',
+            'Linux',
             'Tattoos',
             'Yoga',
         ],
         projects: [
-            'Programmed games in C#, Monogame, Java, Javascript, OpenGL, Python, Unity, and UE4',
-            'Won 3rd place at the Indie Galactic Space Jam 2018 with game using UE4 and EEG Sensor',
+            'Made games in C#/C++/Javascript using VR/third party APIs in custom/proprietary engines',
+            'Won 3rd place (20+ teams) at Indie Galactic Space Jam 2018 using UE4 and EEG Sensor',
             'Built a responsive web app to learn Node, React, Sass and Mongo',
-            'Broadcast programming projects live'
+            'Refactored concurrency library to submit to C++ Boost library for Senior Design project'
         ],
         webapp: 'https://goo.gl/5kq2cv',
-        twitch: 'https://twitch.tv/rockzombie2',
         honors: [
             {
                 honor: 'BSA Eagle Scout',

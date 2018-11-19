@@ -49,6 +49,9 @@
                                 <li id="portfolio">
                                     <i class="fas fa-portrait"></i><a v-bind:href="portfolio">{{portfolio}}</a>
                                 </li>
+                                <li id="twitch">
+                                    <i class="fab fa-twitch"></i><a v-bind:href="twitch">{{twitch}}</a>
+                                </li>
                             </ul>
                         </div>
                         <h2>INTERESTS</h2>
@@ -131,7 +134,6 @@
                                 <template v-for="(project, index) in projects">
                                     <li>{{project}}
                                         <span v-if="index == 2">: <a v-if="index == 2" v-bind:href="webapp">{{webapp}}</a></span>
-                                        <span v-if="index == 3"> on <a v-if="index == 3" v-bind:href="twitch">{{twitch}}</a></span>
                                     </li>
                                 </template>
                             </ul>
@@ -162,3 +164,4 @@
 </body>
 
 </html>
+

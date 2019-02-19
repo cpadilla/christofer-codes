@@ -149,7 +149,7 @@ var resume = new Vue({
             'Made games in C#/C++/Javascript using VR/third party APIs in custom/proprietary engines',
             'Won 3rd place (20+ teams) at Indie Galactic Space Jam 2018 using UE4 and EEG Sensor',
             'Built a responsive web app to learn Node, React, Sass and Mongo',
-            'Refactored concurrency library to submit to C++ Boost library for Senior Design project'
+            'Refactored concurrency library (180,000+ lines) to submit to C++ Boost library'
         ],
         webapp: 'https://goo.gl/5kq2cv',
         honors: [

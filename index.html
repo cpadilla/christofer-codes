@@ -46,9 +46,9 @@
                                 <li id="github">
                                     <i class="fab fa-github"></i><a v-bind:href="github">{{github}}</a>
                                 </li>
-                                <li id="portfolio">
+                                <!--<li id="portfolio">
                                     <i class="fas fa-portrait"></i><a v-bind:href="portfolio">{{portfolio}}</a>
-                                </li>
+                                </li>-->
                                 <li id="twitch">
                                     <i class="fab fa-twitch"></i><a v-bind:href="twitch">{{twitch}}</a>
                                 </li>
@@ -71,19 +71,20 @@
                         <div id="title">{{nickname | capitalize}} {{lastName | capitalize}}</div>
                     </div>
                     <div class="innerContent">
+                        <!--
                         <div id="objectiveHeader">
                             <h5>OBJECTIVE</h5>
                         </div>
                         <div id="objective">
                             {{objective}}
                         </div>
+                        -->
 
-                        <div>
                             <div id="education">
+                                <h5>EDUCATION</h5>
                                 <div class="middleContainer">
-                                    <div class="split">
-                                        <h5>EDUCATION</h5>
-                                        <template v-for="school in education">
+                                    <template v-for="school in education">
+                                        <div class="split">
                                             <div class="schoolInfo">
                                                 <div class="schoolName">{{ school.name }}</div>
                                                 <div class="schoolEnd">{{ school.end }}</div>
@@ -91,25 +92,24 @@
                                             <ul>
                                                 <li class="schoolStudy">{{ school.study }}</div>
                                             </ul>
-                                        </template>
-                                    </div>
-                                    <div class="split" id="languages">
-                                        <h5>SKILLS</h5>
-                                        <p>
-                                            <span v-for="(language,index) of languages">
-                                                {{language}}<span v-if="index != Object.keys(languages).length - 1">,</span>
-                                            </span>
-                                        </p>
-                                    </div>
+                                        </div>
+                                    </template>
                                 </div>
-                                <div>
+                                <div id="languages">
+                                    <h5>SKILLS</h5>
+                                    <p>
+                                        <span v-for="(language,index) of languages">
+                                            {{language}}<span v-if="index != Object.keys(languages).length - 1">,</span>
+                                        </span>
+                                    </p>
+                                </div>
+                                <!--<div>
                                     <h5>RELEVANT COURSEWORK</h5>
                                     <span v-for="(course,index) of classes">
                                         {{course.name}}<span v-if="index != Object.keys(classes).length - 1">,</span>
                                     </span>
-                                </div>
+                                </div>-->
                             </div>
-                        </div>
 
                         <div id="experience">
                             <h5>EXPERIENCE</h5>
@@ -122,7 +122,7 @@
                                 </div>
                                 <div class="company">{{job.company}}</div>
                                 <ul class="duties">
-                                    <template v-for="duty in job.duties.slice(0,2)">
+                                    <template v-for="duty in job.duties.slice(0,3)">
                                         <li>{{duty}}</li>
                                     </template>
                                 </ul>

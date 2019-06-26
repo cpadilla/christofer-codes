@@ -10,12 +10,12 @@ var resume = new Vue({
         portfolio: 'http://christofer.rocks',
         github: 'https://github.com/cpadilla',
         twitch: 'https://twitch.tv/rockzombie2',
-        about: 'I am a passionate developer who enjoys designing elegant interfaces, architecting sophisticated solutions, and refining my craft learning the latest technologies.',
+        about: 'I am a passionate developer who enjoys programming shaders for computer graphics and designing and architecting scalable software frameworks.',
         objective: "Seeking a fufilling and challenging position at an innovative company with progressive mission goals in order to positively impact customers' experiences.",
         education: [
             {
                 name: 'University of Central Florida',
-                study: 'Computer Science',
+                study: 'B.S. in Computer Science',
                 end: 'May 2019'
             },
             {
@@ -68,13 +68,14 @@ var resume = new Vue({
         ],
         experience: [
             {
-                title: 'Software Engineer Intern',
+                title: 'Software Engineer',
                 company: 'Dignitas Technologies',
                 start: 'September 2016',
                 end: 'Present',
                 duties: [
                     'Implemented front and back end features using Java, GWT, and Bootstrap for an intelligent tutoring system with 1500+ users in 76 countries',
                     'Programmatically enforced coding standards using bash, fixing 230+ files in code repository',
+                    'Created a Cordova plugin allowing embedded webapp to access Android activity from javascript, which allowed configurable properties from the client',
                     'Implemented UI tabs and pagination for editing surveys',
                     'Participated in code reviewing with peers and authored inline and online documentation'
                 ]
@@ -87,7 +88,7 @@ var resume = new Vue({
                 duties: [
                     'Built a scalable test framework using NUnit, C#/.NET to run 200+ test cases on 3 different environments and generate daily progress reports to SQL databases',
                     'Developed a WinForm utility for quality assurance engineers to book tee times using REST APIs, reducing task time by 90%', 
-                    'Tested high-volume MVC web apps dealing with time sensitive data and CC information',
+                    'Agile work flow testing high-volume MVC web apps dealing with CC and time-sensitive data',
                     'Used Docker to improve our test framework and better integrate with build CI',
                     'Developed test scripts using Selenium, REST and SOAP APIs on different environments',
                     'Added exception handling to MEAN application running user submitted code'
@@ -99,31 +100,26 @@ var resume = new Vue({
                 start: 'Mar 2012',
                 end: 'Feb 2013',
                 duties: [
-                    'Learned Python in 1 day to generate code-completion files, completing task 1 week early',
-                    'Learned C++ to test and develop GL Studio, a cross platform simulation dev tool',
-                    'Experienced working on cross-platform product with build tools and version control',
+                    'Learned C++ to test and develop GL Studio, a cross platform development tool to create 3D simulation tools with built-in editor for custom C++ code',
+                    'Learned Python in 1 day to generate IDL code-completion files, completing task 1 week early',
+                    'Tested and debugged applications on Windows and Linux regularly',
                     'Wrote unit tests and in-house IDL files, performed release testing and QA'
                 ]
             }
         ],
         languages: [
             'Vim',
-            'C#/LINQ/.NET',
+            'C++',
+            'C#',
             'Java',
-            'Javascript',
-            'C/C++',
-            'HTML',
-            'CSS',
-            'Vue.js',
-            'Node.js',
+            'JS/HTML/CSS',
+            'CMake',
+            'Vue/React',
+            'Node',
             'Python',
-            'React.js',
             'OpenGL',
-            'GLSL',
             'XML',
-            'SQL',
-            'Mongo',
-            'Haskell'
+            'SQL'
         ],
         skills: [
             'Strong comprehension of OOP and working with third party libraries and frameworks',
@@ -149,7 +145,8 @@ var resume = new Vue({
             'Made games in C#/C++/Javascript using VR/third party APIs in Unity and other engines',
             'Won 3rd place (20+ teams) at Indie Galactic Space Jam 2018 using UE4 and EEG Sensor',
             'Built a responsive web app to learn Node, React, Sass and Mongo',
-            'Refactored concurrency library (180,000+ lines) to submit to C++ Boost library'
+            'Refactored concurrency library (180,000+ lines) to submit to C++ Boost library',
+            'Working on custom game engine using C++/OpengGL with shaders, diffuse maps, Lua scripts'
         ],
         webapp: 'https://goo.gl/5kq2cv',
         honors: [

@@ -5,8 +5,9 @@ var resume = new Vue({
         firstName: 'Christofer',
         lastName: 'Padilla',
         nickname: 'Chris',
+        katakana: 'クリストファ　パヂヤ',
         email: 'christoferpadilla@gmail.com',
-        phone: '4074912791', 
+        phone: '(407) 491-2791', 
         portfolio: 'http://christofer.rocks',
         github: 'https://github.com/cpadilla',
         twitch: 'https://twitch.tv/rockzombie2',
@@ -16,12 +17,14 @@ var resume = new Vue({
             {
                 name: 'University of Central Florida',
                 study: 'B.S. in Computer Science',
-                end: 'May 2019'
+                end: '2019',
+                endMonth: 'May'
             },
             {
                 name: 'Winter Park Technical School',
                 study: 'Web Programming',
-                end: 'May 2011'
+                end: '2011',
+                endMonth: 'May '
             }
         ],
         classes: [
@@ -109,16 +112,21 @@ var resume = new Vue({
         ],
         languages: [
             'Vim',
+            'Vue.js',
             'C++',
             'C#',
+            'JavaScript',
             'Java',
-            'JS/HTML/CSS',
+            'HTML',
+            'Pug',
+            'CSS',
+            'Sass',
             'CMake',
-            'Vue/React',
-            'Node',
+            'React.js',
+            'Node.js',
             'Python',
             'OpenGL',
-            'XML',
+            'Mongo',
             'SQL'
         ],
         skills: [
@@ -134,7 +142,7 @@ var resume = new Vue({
         hobbies: [
             'Rockclimbing',
             'Game Dev',
-            'Skateboarding',
+            'Graphic Design',
             'Virtual Reality',
             'Graphics',
             'Linux',
@@ -167,6 +175,9 @@ var resume = new Vue({
                 year: '2010'
             }
         ]
+    },
+    created() {
+        console.log("katakana: " + this.katakana);
     },
     filters: {
         capitalize: function capitalize(value) {

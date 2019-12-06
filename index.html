@@ -8,6 +8,7 @@
 
 <head>
     <title>Christofer Padilla's Resume</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="skeleton.css">
     <link rel="stylesheet" href="index.css">
@@ -25,16 +26,18 @@
                 <div class="headerContainer">
                     <div id="header">
                         <div class="icon">
-                            <img src="images/icon.png"></img>
+                            <img src="images/logo.svg"></img>
                         </div>
 
-                        <h2>ABOUT ME</h2>
+                        <div id="about">
+                            <h2>私 ABOUT ME</h2>
+                        </div>
                         <div id="aboutMe">
                             {{about}}
                         </div>
 
 
-                        <h2>CONTACT</h2>
+                        <h2>連絡 CONTACT</h2>
                         <div id="contact">
                             <ul>
                                 <li id="phone">
@@ -54,7 +57,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <h2>INTERESTS</h2>
+                        <h2>趣味 INTERESTS</h2>
                         <div id="interests">
                             <ul>
                                 <template v-for="hobby in hobbies">
@@ -68,7 +71,8 @@
             <div class="body eight columns">
                 <div class="content">
                     <div class="titleContainer">
-                        <div id="title">{{nickname | capitalize}} {{lastName | capitalize}}</div>
+                        <div id="title" v-html="katakana"></div>
+                        <div id="subtitle">{{firstName | capitalize}} {{lastName | capitalize}}</div>
                     </div>
                     <div class="innerContent">
                         <!--
@@ -80,23 +84,22 @@
                         </div>
                         -->
 
-                            <div id="education">
-                                <h5>EDUCATION</h5>
-                                <div class="middleContainer">
-                                    <template v-for="school in education">
-                                        <div class="split">
-                                            <div class="schoolInfo">
-                                                <div class="schoolName">{{ school.name }}</div>
-                                                <div class="schoolEnd">{{ school.end }}</div>
+                            <div id="education" class="row">
+                                <div id="school" class="six columns">
+                                    <h5>教育 EDUCATION</h5>
+                                    <div class="middleContainer">
+                                        <template v-for="school in education">
+                                            <div>
+                                                <div class="schoolInfo">
+                                                    <div class="schoolName">{{ school.name }} - {{ school.end }}</div>
+                                                </div>
+                                                <p class="schoolStudy">{{ school.study }}</div>
                                             </div>
-                                            <ul>
-                                                <li class="schoolStudy">{{ school.study }}</div>
-                                            </ul>
-                                        </div>
-                                    </template>
+                                        </template>
+                                    </div>
                                 </div>
-                                <div id="languages">
-                                    <h5>SKILLS</h5>
+                                <div id="languages" class="six columns">
+                                    <h5>技術 SKILLS</h5>
                                     <p>
                                         <span v-for="(language,index) of languages">
                                             {{language}}<span v-if="index != Object.keys(languages).length - 1">,</span>
@@ -112,24 +115,23 @@
                             </div>
 
                         <div id="experience">
-                            <h5>EXPERIENCE</h5>
+                            <h5>職歴 EXPERIENCE</h5>
                             <template v-for="job in experience.slice(0,3)">
                                 <div class="jobHeader">
-                                    <div class="title">{{job.title}}</div>
+                                    <div class="title">{{job.company}} - {{job.title}}</div>
                                     <div>
                                         <div class="start">{{job.start}} - {{job.end}}</div>
                                     </div>
                                 </div>
-                                <div class="company">{{job.company}}</div>
                                 <ul class="duties">
-                                    <template v-for="duty in job.duties.slice(0,3)">
+                                    <template v-for="duty in job.duties.slice(0,4)">
                                         <li>{{duty}}</li>
                                     </template>
                                 </ul>
                             </template>
                         </div>
                         <div id="projects">
-                            <h5>PROJECTS</h5>
+                            <h5>プロジェクト PROJECTS</h5>
                             <ul>
                                 <template v-for="(project, index) in projects">
                                     <li>{{project}}
@@ -139,7 +141,7 @@
                             </ul>
                         </div>
                         <div id="extracurricular">
-                            <h5>EXTRACURRICULAR</h5>
+                            <h5>課外 EXTRACURRICULAR</h5>
                             <ul>
                                 <template v-for="extra in extracurricular">
                                     <li>{{extra}}</li>
@@ -147,7 +149,7 @@
                             </ul>
                         </div>
                         <div id="honors">
-                            <h5>HONORS</h5>
+                            <h5>賞 HONORS</h5>
                             <ul>
                                 <template v-for="honor in honors.slice(0,3)">
                                     <li>{{honor.honor}}</li>

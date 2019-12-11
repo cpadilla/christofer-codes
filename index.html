@@ -119,7 +119,7 @@
                             <template v-for="job in experience.slice(0,3)">
                                 <div class="jobHeader">
                                     <div class="title">{{job.company}} - {{job.title}}</div>
-                                    <div>
+                                    <div class="tenure">
                                         <div class="start">{{job.start}} - {{job.end}}</div>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@
                                 </template>
                             </ul>
                         </div>
-                        <div id="extracurricular">
+                        <div v-if="false" id="extracurricular">
                             <h5>課外 EXTRACURRICULAR</h5>
                             <ul>
                                 <template v-for="extra in extracurricular">
@@ -151,8 +151,8 @@
                         <div id="honors">
                             <h5>賞 HONORS</h5>
                             <ul>
-                                <template v-for="honor in honors.slice(0,3)">
-                                    <li>{{honor.honor}}</li>
+                                <template v-for="honor in honors.slice(0,5)">
+                                    <li><b>{{honor.year}}</b> {{honor.honor}}</li>
                                 </template>
                             </ul>
                         </div>

@@ -73,12 +73,13 @@ var resume = new Vue({
             {
                 title: 'Software Engineer',
                 company: 'Dignitas Technologies',
-                start: 'September 2016',
+                start: '09/2016',
                 end: 'Present',
                 duties: [
                     'Implemented front and back end features using Java, GWT, and Bootstrap for an intelligent tutoring system with 1500+ users in 76 countries',
                     'Programmatically enforced coding standards using bash, fixing 230+ files in code repository',
                     'Created a Cordova plugin allowing embedded webapp to access Android activity from javascript, which allowed configurable properties from the client',
+                    'Contacted clients, attended I/ITSEC, wrote articles as Research Engineer on Phase 1 SBIR',
                     'Implemented UI tabs and pagination for editing surveys',
                     'Participated in code reviewing with peers and authored inline and online documentation'
                 ]
@@ -86,8 +87,8 @@ var resume = new Vue({
             {
                 title: 'Software Engineer',
                 company: 'GolfNow',
-                start: 'Mar 2014',
-                end: 'Aug 2016',
+                start: '03/2014',
+                end: '08/2016',
                 duties: [
                     'Built a scalable test framework using NUnit, C#/.NET to run 200+ test cases on 3 different environments and generate daily progress reports to SQL databases',
                     'Developed a WinForm utility for quality assurance engineers to book tee times using REST APIs, reducing task time by 90%', 
@@ -100,8 +101,8 @@ var resume = new Vue({
             {
                 title: 'Software Engineer Intern',
                 company: 'DiSTI',
-                start: 'Mar 2012',
-                end: 'Feb 2013',
+                start: '03/2012',
+                end: '02/2013',
                 duties: [
                     'Learned C++ to test and develop GL Studio, a cross platform development tool to create 3D simulation tools with built-in editor for custom C++ code',
                     'Learned Python in 1 day to generate IDL code-completion files, completing task 1 week early',
@@ -127,7 +128,15 @@ var resume = new Vue({
             'Python',
             'OpenGL',
             'Mongo',
-            'SQL'
+            'SQL',
+            'Linux (I use arch btw)',
+            'FreeBSD',
+            'Bash',
+            'Fish',
+            '.NET',
+            'Powershell',
+            'Haskell',
+            'MS Paint'
         ],
         skills: [
             'Strong comprehension of OOP and working with third party libraries and frameworks',
@@ -141,26 +150,29 @@ var resume = new Vue({
         ],
         hobbies: [
             'Rockclimbing',
-            'Game Dev',
+            'Astronomy',
             'Graphic Design',
             'Virtual Reality',
             'Graphics',
             'Linux',
             'Tattoos',
             'Yoga',
+            'Skateboarding',
+            'Game Dev',
         ],
         projects: [
             'Made games in C#/C++/Javascript using VR/third party APIs in Unity and other engines',
             'Won 3rd place (20+ teams) at Indie Galactic Space Jam 2018 using UE4 and EEG Sensor',
             'Built a responsive web app to learn Node, React, Sass and Mongo',
+            'Built a dashboard using Node, Express, Vue, Pug, Sass, MySQL to show orders on a map',
             'Refactored concurrency library (180,000+ lines) to submit to C++ Boost library',
             'Working on custom game engine using C++/OpengGL with shaders, diffuse maps, Lua scripts'
         ],
         webapp: 'https://goo.gl/5kq2cv',
         honors: [
             {
-                honor: 'BSA Eagle Scout',
-                year: '2011'
+                honor: 'NTSA Education/Human Performance Team Award for Outstanding Achv. in M&S',
+                year: '2019'
             },
             {
                 honor: 'Eagle Scout Mentor Pin',
@@ -171,7 +183,11 @@ var resume = new Vue({
                 year: '2014'
             },
             {
-                honor: "FIRST Florida Regional Chairman's Award",
+                honor: 'BSA Eagle Scout',
+                year: '2011'
+            },
+            {
+                honor: "FIRST FL Regional Chairman's Award",
                 year: '2010'
             }
         ]

@@ -95,7 +95,6 @@ h5 {
     top: 0px;
     list-style-type: none;
     font-size: 1.7rem;
-    padding-left: 1rem;
 }
 
 .headerContainer ul {
@@ -312,6 +311,15 @@ h5 {
     margin-bottom: 0;
 }
 
+.start {
+    font-size: 1rem;
+}
+
+.tenure {
+    display: flex;
+    align-items: center;
+}
+
 #languages {
     padding-right: 0;
 }
@@ -375,7 +383,7 @@ h5 {
 }
 
 #interests ul {
-    padding-left: 5rem;
+    padding-left: 2rem;
     columns: 2;
     margin-bottom: 0;
 }
@@ -442,12 +450,13 @@ h5 {
 }
 
 #honors ul {
-    columns: 3;
+    columns: 2;
     margin-bottom: 0;
 }
 
 #honors ul li {
     /* font-size: .8em; */
+    list-style: none;
     margin-bottom: 0;
 }
 

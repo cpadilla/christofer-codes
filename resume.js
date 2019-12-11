@@ -149,7 +149,7 @@ var resume = new Vue({
             'Game Dev Knights'
         ],
         hobbies: [
-            'Rockclimbing',
+            'Languages',
             'Astronomy',
             'Graphic Design',
             'Virtual Reality',

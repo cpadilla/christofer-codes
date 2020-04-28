@@ -71,10 +71,21 @@ var resume = new Vue({
         ],
         experience: [
             {
+                title: 'Full Stack Developer',
+                company: 'RP Funding',
+                start: '01/2020',
+                end: '04/2020',
+                duties: [
+                    'Worked on upgrading ColdFusion Server 2016 to 2018',
+                    'Converted CFML tag based "classes" to CFScript equivalent base classes',
+                    'Used JavaScript to incorporate a new point of contact into generated ads for loan agents',
+                ]
+            },
+            {
                 title: 'Software Engineer',
                 company: 'Dignitas Technologies',
                 start: '09/2016',
-                end: 'Present',
+                end: '01/2020',
                 duties: [
                     'Implemented front and back end features using Java, GWT, and Bootstrap for an intelligent tutoring system with 1500+ users in 76 countries',
                     'Programmatically enforced coding standards using bash, fixing 230+ files in code repository',

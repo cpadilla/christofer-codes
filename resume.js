@@ -76,8 +76,8 @@ var resume = new Vue({
                 start: '01/2020',
                 end: '04/2020',
                 duties: [
-                    'Worked on upgrading ColdFusion Server 2016 to 2018',
-                    'Converted CFML tag based "classes" to CFScript equivalent base classes',
+                    'Worked on upgrading ColdFusion Server 2016 to 2018 and converting CFML tags to CFSCript',
+                    'Used AWS to configure microservices running and accessibility from REST APIs',
                     'Used JavaScript to incorporate a new point of contact into generated ads for loan agents',
                 ]
             },

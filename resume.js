@@ -71,6 +71,16 @@ var resume = new Vue({
         ],
         experience: [
             {
+                title: 'Software Engineer',
+                company: 'nCino',
+                start: '08/2020',
+                end: 'Present',
+                duties: [
+                    'Utilized Apex (Salesforce) to implement integrations with financial institutions',
+                    'Created 50+ mappings using in-house utility language as part of credit team',
+                ]
+            },
+            {
                 title: 'Full Stack Developer',
                 company: 'RP Funding',
                 start: '01/2020',
@@ -140,7 +150,7 @@ var resume = new Vue({
             'OpenGL',
             'Mongo',
             'SQL',
-            'Linux (I use arch btw)',
+            'Linux',
             'FreeBSD',
             'Bash',
             'Fish',
@@ -162,14 +172,14 @@ var resume = new Vue({
         hobbies: [
             'Languages',
             'Astronomy',
-            'Graphic Design',
-            'Virtual Reality',
             'Graphics',
-            'Linux',
-            'Tattoos',
+            'Virtual Reality',
+            'Game Design',
             'Yoga',
+            'Tattoos',
+            'Table Top RPGs',
             'Skateboarding',
-            'Game Dev',
+            'Science Fiction',
         ],
         projects: [
             'Made games in C#/C++/Javascript using VR/third party APIs in Unity and other engines',

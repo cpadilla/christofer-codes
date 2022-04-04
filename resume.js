@@ -11,7 +11,7 @@ var resume = new Vue({
         portfolio: 'http://christofer.rocks',
         github: 'https://github.com/cpadilla',
         twitch: 'https://twitch.tv/rockzombie2',
-        about: 'I am a passionate developer who enjoys programming shaders for computer graphics and designing and architecting scalable software frameworks.',
+        about: 'I am a passionate developer who enjoys programming shaders for computer graphics, game design, writing technical documentation and architecting scalable software frameworks.',
         objective: "Seeking a fufilling and challenging position at an innovative company with progressive mission goals in order to positively impact customers' experiences.",
         education: [
             {
@@ -72,9 +72,19 @@ var resume = new Vue({
         experience: [
             {
                 title: 'Software Engineer',
+                company: 'AWS Elastic Block Storage Team',
+                start: '09/2021',
+                end: '02/2022',
+                duties: [
+                    'Added I/O histograms and participated in on-call rotations to investigate latency complaints',
+                    'Led critical validation effort for new hardware to add to production pool, improving testing tool',
+                ]
+            },
+            {
+                title: 'Software Engineer',
                 company: 'nCino',
                 start: '08/2020',
-                end: 'Present',
+                end: '8/2021',
                 duties: [
                     'Utilized Apex (Salesforce) to implement integrations with financial institutions',
                     'Created 50+ mappings using in-house utility language as part of credit team',
@@ -173,7 +183,7 @@ var resume = new Vue({
             'Languages',
             'Astronomy',
             'Graphics',
-            'Virtual Reality',
+            'Blockchain',
             'Game Design',
             'Yoga',
             'Tattoos',
@@ -187,7 +197,7 @@ var resume = new Vue({
             'Built a responsive web app to learn Node, React, Sass and Mongo',
             'Built a dashboard using Node, Express, Vue, Pug, Sass, MySQL to show orders on a map',
             'Refactored concurrency library (180,000+ lines) to submit to C++ Boost library',
-            'Working on custom game engine using C++/OpengGL with shaders, diffuse maps, Lua scripts'
+            'Performed in-depth analysis of multiple crypto blockchains for developing a dapp game on'
         ],
         webapp: 'https://goo.gl/5kq2cv',
         honors: [

@@ -71,6 +71,16 @@ var resume = new Vue({
         ],
         experience: [
             {
+                title: 'SDE II',
+                company: 'Expedia Group',
+                start: '08/2022',
+                end: 'Present',
+                duties: [
+                    'Created 12 unit tests of over 6k lines to bring code coverage up to 100% for a repository',
+                    'Added a new value to metrics across two different repositories, enabling search by id',
+                ]
+            },
+            {
                 title: 'Software Engineer',
                 company: 'AWS Elastic Block Storage Team',
                 start: '09/2021',

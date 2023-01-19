@@ -159,6 +159,7 @@ var resume = new Vue({
             'C#',
             'JavaScript',
             'Java',
+            'Rust',
             'HTML',
             'Pug',
             'CSS',
@@ -174,7 +175,6 @@ var resume = new Vue({
             'FreeBSD',
             'Bash',
             'Fish',
-            '.NET',
             'Powershell',
             'Haskell',
             'MS Paint'

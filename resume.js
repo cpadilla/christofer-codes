@@ -202,7 +202,7 @@ var resume = new Vue({
             'Science Fiction',
         ],
         projects: [
-            'Made games in C#/C++/Javascript using VR/third party APIs in Unity and other engines',
+            'Created a Twitch bot using Rust and made a chat service using Rust and gRPC',
             'Won 3rd place (20+ teams) at Indie Galactic Space Jam 2018 using UE4 and EEG Sensor',
             'Built a responsive web app to learn Node, React, Sass and Mongo',
             'Built a dashboard using Node, Express, Vue, Pug, Sass, MySQL to show orders on a map',

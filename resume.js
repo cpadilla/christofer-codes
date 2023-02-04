@@ -6,7 +6,7 @@ var resume = new Vue({
         lastName: 'Padilla',
         nickname: 'Chris',
         katakana: 'クリストファ　パヂヤ',
-        email: 'christoferpadilla@gmail.com',
+        email: 'christofer@spacepirates.net',
         phone: '(407) 491-2791', 
         portfolio: 'http://christofer.rocks',
         github: 'https://github.com/cpadilla',

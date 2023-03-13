@@ -156,12 +156,13 @@ var resume = new Vue({
         ],
         languages: [
             'Vim',
+            'Rust',
             'Vue.js',
             'C++',
             'C#',
             'JavaScript',
             'Java',
-            'Rust',
+            'Kotlin',
             'HTML',
             'Pug',
             'CSS',
@@ -178,8 +179,7 @@ var resume = new Vue({
             'Bash',
             'Fish',
             'Powershell',
-            'Haskell',
-            'MS Paint'
+            'Haskell'
         ],
         skills: [
             'Strong comprehension of OOP and working with third party libraries and frameworks',

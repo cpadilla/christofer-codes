@@ -74,7 +74,7 @@ var resume = new Vue({
                 title: 'SDE II',
                 company: 'Expedia Group',
                 start: '08/2022',
-                end: 'Present',
+                end: '03/2023',
                 duties: [
                     'Created Integration tests which use docker-compose and wiremock to emulate gRPC mocking',
                     'Created a github action as part of SOX compliance that uploads screenshots to a repository',

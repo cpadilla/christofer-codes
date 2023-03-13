@@ -76,6 +76,8 @@ var resume = new Vue({
                 start: '08/2022',
                 end: 'Present',
                 duties: [
+                    'Created Integration tests which use docker-compose and wiremock to emulate gRPC mocking',
+                    'Created a github action as part of SOX compliance that uploads screenshots to a repository',
                     'Created 12 unit tests of over 6k lines to bring code coverage up to 100% for a repository',
                     'Added a new value to metrics across two different repositories, enabling search by id',
                 ]

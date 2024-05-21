@@ -11,7 +11,7 @@ var resume = new Vue({
         portfolio: 'http://christofer.rocks',
         github: 'https://github.com/cpadilla',
         twitch: 'https://twitch.tv/rockzombie2',
-        about: 'I am a passionate developer who enjoys programming shaders for computer graphics, game design, writing technical documentation and architecting scalable software frameworks.',
+        about: 'I am a passionate developer who enjoys programming computer games, writing technical documentation and architecting scalable software frameworks.',
         objective: "Seeking a fufilling and challenging position at an innovative company with progressive mission goals in order to positively impact customers' experiences.",
         education: [
             {
@@ -70,6 +70,16 @@ var resume = new Vue({
             }
         ],
         experience: [
+            {
+                title: 'SDE II',
+                company: 'Oddball',
+                start: '06/2023',
+                end: 'Present',
+                duties: [
+                    'Converted 10+ subproject Ant build project to use Maven; tested to ensure feature parity',
+                    'Made 20+ systematic front end accessibility changes to ensure 508 compliance',
+                ]
+            },
             {
                 title: 'SDE II',
                 company: 'Expedia Group',
@@ -195,12 +205,12 @@ var resume = new Vue({
             'Languages',
             'Astronomy',
             'Graphics',
-            'Blockchain',
+            'Linux',
             'Game Design',
             'Yoga',
             'Tattoos',
             'Table Top RPGs',
-            'Skateboarding',
+            'Sailing',
             'Science Fiction',
         ],
         projects: [

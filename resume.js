@@ -74,10 +74,11 @@ var resume = new Vue({
                 title: 'SDE II',
                 company: 'Oddball',
                 start: '06/2023',
-                end: 'Present',
+                end: '06/2025',
                 duties: [
-                    'Converted 10+ subproject Ant build project to use Maven; tested to ensure feature parity',
                     'Made 20+ systematic front end accessibility changes to ensure 508 compliance',
+                    'Created a React front end to automatically run multiple system jobs on the mainframe ',
+                    'Converted 10+ subproject Ant build project to use Maven; tested to ensure feature parity',
                 ]
             },
             {

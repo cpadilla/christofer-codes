@@ -50,19 +50,27 @@
                                 <li id="github">
                                     <i class="fab fa-github"></i><a v-bind:href="github">{{github}}</a>
                                 </li>
-                                <!--<li id="portfolio">
-                                    <i class="fas fa-portrait"></i><a v-bind:href="portfolio">{{portfolio}}</a>
-                                </li>-->
                                 <li id="twitch">
                                     <i class="fab fa-twitch"></i><a v-bind:href="twitch">{{twitch}}</a>
+                                </li>
+                                <li id="portfolio">
+                                    <i class="fas fa-rss"></i><a v-bind:href="portfolio">{{portfolio}}</a>
                                 </li>
                             </ul>
                         </div>
                         <h2>趣味 INTERESTS</h2>
                         <div id="interests">
                             <ul>
-                                <template v-for="hobby in hobbies">
+                                <template v-for="hobby in hobbies.slice(0,6)">
                                     <li>{{hobby}}</li>
+                                </template>
+                            </ul>
+                        </div>
+                        <h2>賞 HONORS</h5>
+                        <div id="honors">
+                            <ul>
+                                <template v-for="honor in honors.slice(0,5)">
+                                    <li><b>{{honor.year}}</b> {{honor.honor}}</li>
                                 </template>
                             </ul>
                         </div>
@@ -117,7 +125,7 @@
 
                         <div id="experience">
                             <h5>職歴 EXPERIENCE</h5>
-                            <template v-for="job in experience.slice(0,5)">
+                            <template v-for="job in experience.slice(0,7)">
                                 <div class="jobHeader">
                                     <div class="title">{{job.company}} - {{job.title}}</div>
                                     <div class="tenure">
@@ -136,7 +144,7 @@
                             <ul>
                                 <template v-for="(project, index) in projects">
                                     <li>{{project}}
-                                        <span v-if="index == 2">: <a v-if="index == 2" v-bind:href="webapp">{{webapp}}</a></span>
+                                        <!-- <span v-if="index == 2">: <a v-if="index == 2" v-bind:href="webapp">{{webapp}}</a></span> -->
                                     </li>
                                 </template>
                             </ul>
@@ -146,14 +154,6 @@
                             <ul>
                                 <template v-for="extra in extracurricular">
                                     <li>{{extra}}</li>
-                                </template>
-                            </ul>
-                        </div>
-                        <div id="honors">
-                            <h5>賞 HONORS</h5>
-                            <ul>
-                                <template v-for="honor in honors.slice(0,5)">
-                                    <li><b>{{honor.year}}</b> {{honor.honor}}</li>
                                 </template>
                             </ul>
                         </div>

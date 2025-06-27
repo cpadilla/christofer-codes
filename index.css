@@ -91,7 +91,7 @@ h5 {
 .headerContainer {
     display: flex;
     align-self: baseline;
-    padding-top: 10rem;
+    padding-top: 7rem;
     top: 0px;
     list-style-type: none;
     font-size: 1.7rem;
@@ -124,7 +124,7 @@ h5 {
     font-weight: bold;
     letter-spacing: .6rem;
     font-size: .8em;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: .2rem;
     border-bottom: 0.4rem solid black;
     margin-bottom: 2rem;
@@ -291,7 +291,6 @@ h5 {
 #experience .jobHeader {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1rem;
 }
 
 #experience .jobHeader .title {
@@ -384,12 +383,14 @@ h5 {
 
 #interests ul {
     padding-left: 2rem;
-    columns: 2;
+    columns: 3;
     margin-bottom: 0;
+    max-width: 18rem;
 }
 
 #interests li {
     font-size: 1.1rem;
+    margin-bottom: 0rem;
 }
 
 #interests i {
@@ -408,8 +409,8 @@ h5 {
 }
 
 #hobbies ul {
-    padding-left: 1rem;
-    columns: 2;
+    padding-left: 2rem;
+    columns: 1;
     margin-bottom: 0;
 }
 
@@ -450,13 +451,18 @@ h5 {
 }
 
 #honors ul {
-    columns: 2;
+    columns: 1;
     margin-bottom: 0;
+    max-width: 18rem;
+    padding-left: 2rem;
 }
 
 #honors ul li {
     /* font-size: .8em; */
+    font-size: 1.1rem;
     list-style: none;
+    width: 18rem;
     margin-bottom: 0;
+    text-align: justify;
 }
 

@@ -11,7 +11,7 @@ var resume = new Vue({
         portfolio: 'http://christofer.rocks',
         github: 'https://github.com/cpadilla',
         twitch: 'https://twitch.tv/rockzombie2',
-        about: 'I am a passionate developer who enjoys programming computer games, writing technical documentation and architecting scalable software frameworks.',
+        about: "I'm a versatile software engineer with over a decade of experience building reliable, scalable systems across frontend, backend, and infrastructure. I enjoy solving complex problems with clean, efficient code. I’m passionate about modern dev environments (Linux, Neovim, Rust), accessibility, and continuous learning.",
         objective: "Seeking a fufilling and challenging position at an innovative company with progressive mission goals in order to positively impact customers' experiences.",
         education: [
             {
@@ -76,8 +76,8 @@ var resume = new Vue({
                 start: '06/2023',
                 end: '06/2025',
                 duties: [
-                    'Made 20+ systematic front end accessibility changes to ensure 508 compliance',
                     'Created a React front end to automatically run multiple system jobs on the mainframe ',
+                    'Made 20+ systematic front end accessibility changes to ensure 508 compliance',
                     'Converted 10+ subproject Ant build project to use Maven; tested to ensure feature parity',
                 ]
             },
@@ -109,7 +109,8 @@ var resume = new Vue({
                 start: '08/2020',
                 end: '8/2021',
                 duties: [
-                    'Utilized Apex (Salesforce) to implement integrations with financial institutions',
+                    'Developed and maintained custom Apex code within the Salesforce platform to facilitate robust data integrations between financial institutions and the nCino Bank Operating System',
+                    'Authored over 50 data mapping definitions using an internal domain-specific language to normalize external financial institution data',
                     'Created 50+ mappings using in-house utility language as part of credit team',
                 ]
             },
@@ -130,10 +131,10 @@ var resume = new Vue({
                 start: '09/2016',
                 end: '01/2020',
                 duties: [
-                    'Implemented front and back end features using Java, GWT, and Bootstrap for an intelligent tutoring system with 1500+ users in 76 countries',
-                    'Programmatically enforced coding standards using bash, fixing 230+ files in code repository',
-                    'Created a Cordova plugin allowing embedded webapp to access Android activity from javascript, which allowed configurable properties from the client',
+                    'Implemented front (UI tabs and pagination) and back end features using Java, Angular, GWT, and Bootstrap for an intelligent tutoring system with 1500+ users in 76 countries',
+                    'Wrote Python to enforced coding standards using bash, fixing 230+ files in code repository',
                     'Contacted clients, attended I/ITSEC, wrote articles as Research Engineer on Phase 1 SBIR',
+                    'Created a Cordova plugin allowing embedded webapp to access Android activity from javascript, which allowed configurable properties from the client',
                     'Implemented UI tabs and pagination for editing surveys',
                     'Participated in code reviewing with peers and authored inline and online documentation'
                 ]
@@ -144,11 +145,11 @@ var resume = new Vue({
                 start: '03/2014',
                 end: '08/2016',
                 duties: [
-                    'Built a scalable test framework using NUnit, C#/.NET to run 200+ test cases on 3 different environments and generate daily progress reports to SQL databases',
-                    'Developed a WinForm utility for quality assurance engineers to book tee times using REST APIs, reducing task time by 90%', 
-                    'Agile work flow testing high-volume MVC web apps dealing with CC and time-sensitive data',
+                    'Built a scalable test framework using Selenium, REST, NUnit, C#/.NET to run 200+ test cases on 3 different environments and generate daily progress reports to SQL databases',
+                    'Developed a self-updating WinForm utility for quality assurance engineers to book tee times using REST APIs, reducing task time by 90%', 
                     'Used Docker to improve our test framework and better integrate with build CI',
                     'Developed test scripts using Selenium, REST and SOAP APIs on different environments',
+                    'Agile work flow testing high-volume MVC web apps dealing with CC and time-sensitive data',
                     'Added exception handling to MEAN application running user submitted code'
                 ]
             },
@@ -190,6 +191,7 @@ var resume = new Vue({
             'Linux',
             'FreeBSD',
             'Bash',
+            'Powershell',
         ],
         skills: [
             'Strong comprehension of OOP and working with third party libraries and frameworks',
@@ -216,7 +218,7 @@ var resume = new Vue({
         projects: [
             'Created a Twitch bot using Rust and made a chat service using Rust and gRPC',
             'Won 3rd place (20+ teams) at Indie Galactic Space Jam 2018 using UE4 and EEG Sensor',
-            'Built a responsive web app to learn Node, React, Sass and Mongo',
+            'Automated a multi-threaded Typescript project to hack nodes in a tree in a game',
             'Built a dashboard using Node, Express, Vue, Pug, Sass, MySQL to show orders on a map',
             'Refactored concurrency library (180,000+ lines) to submit to C++ Boost library',
             'Performed in-depth analysis of multiple crypto blockchains for developing a dapp game on'

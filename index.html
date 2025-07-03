@@ -125,19 +125,85 @@
 
                         <div id="experience">
                             <h5>職歴 EXPERIENCE</h5>
-                            <template v-for="job in experience.slice(0,7)">
+                            <!-- <template v-for="job in experience.slice(0,7)"> -->
                                 <div class="jobHeader">
-                                    <div class="title">{{job.company}} - {{job.title}}</div>
+                                    <div class="title">{{experience[0].company}} - {{experience[0].title}}</div>
                                     <div class="tenure">
-                                        <div class="start">{{job.start}} - {{job.end}}</div>
+                                        <div class="start">{{experience[0].start}} - {{experience[0].end}}</div>
                                     </div>
                                 </div>
                                 <ul class="duties">
-                                    <template v-for="duty in job.duties.slice(0,2)">
+                                    <template v-for="duty in experience[0].duties.slice(0,2)">
                                         <li>{{duty}}</li>
                                     </template>
                                 </ul>
-                            </template>
+                                <div class="jobHeader">
+                                    <div class="title">{{experience[1].company}} - {{experience[1].title}}</div>
+                                    <div class="tenure">
+                                        <div class="start">{{experience[1].start}} - {{experience[1].end}}</div>
+                                    </div>
+                                </div>
+                                <ul class="duties">
+                                    <template v-for="duty in experience[1].duties.slice(0,2)">
+                                        <li>{{duty}}</li>
+                                    </template>
+                                </ul>
+                                <div class="jobHeader">
+                                    <div class="title">{{experience[2].company}} - {{experience[2].title}}</div>
+                                    <div class="tenure">
+                                        <div class="start">{{experience[2].start}} - {{experience[2].end}}</div>
+                                    </div>
+                                </div>
+                                <ul class="duties">
+                                    <template v-for="duty in experience[2].duties.slice(0,2)">
+                                        <li>{{duty}}</li>
+                                    </template>
+                                </ul>
+                                <div class="jobHeader">
+                                    <div class="title">{{experience[3].company}} - {{experience[3].title}}</div>
+                                    <div class="tenure">
+                                        <div class="start">{{experience[3].start}} - {{experience[3].end}}</div>
+                                    </div>
+                                </div>
+                                <ul class="duties">
+                                    <template v-for="duty in experience[3].duties.slice(0,2)">
+                                        <li>{{duty}}</li>
+                                    </template>
+                                </ul>
+                                <div class="jobHeader">
+                                    <div class="title">{{experience[4].company}} - {{experience[4].title}}</div>
+                                    <div class="tenure">
+                                        <div class="start">{{experience[4].start}} - {{experience[4].end}}</div>
+                                    </div>
+                                </div>
+                                <ul class="duties">
+                                    <template v-for="duty in experience[4].duties.slice(0,2)">
+                                        <li>{{duty}}</li>
+                                    </template>
+                                </ul>
+                                <div class="jobHeader">
+                                    <div class="title">{{experience[5].company}} - {{experience[5].title}}</div>
+                                    <div class="tenure">
+                                        <div class="start">{{experience[5].start}} - {{experience[5].end}}</div>
+                                    </div>
+                                </div>
+                                <ul class="duties">
+                                    <template v-for="duty in experience[5].duties.slice(0,3)">
+                                        <li>{{duty}}</li>
+                                    </template>
+                                </ul>
+                                <div class="jobHeader">
+                                    <div class="title">{{experience[6].company}} - {{experience[6].title}}</div>
+                                    <div class="tenure">
+                                        <div class="start">{{experience[6].start}} - {{experience[6].end}}</div>
+                                    </div>
+                                </div>
+                                <ul class="duties">
+                                    <template v-for="duty in experience[6].duties.slice(0,3)">
+                                        <li>{{duty}}</li>
+                                    </template>
+                                </ul>
+                            <!-- </template> -->
                         </div>
                         <div id="projects">
                             <h5>プロジェクト PROJECTS</h5>

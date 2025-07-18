@@ -176,6 +176,7 @@ var resume = new Vue({
             'TypeScript',
             'Java',
             'Kotlin',
+            'Spring Boot',
             'HTML',
             'CSS',
             'Sass',

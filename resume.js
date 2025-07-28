@@ -192,7 +192,7 @@ var resume = new Vue({
             'Linux',
             'FreeBSD',
             'Bash',
-            'Powershell',
+            'Terraform',
         ],
         skills: [
             'Strong comprehension of OOP and working with third party libraries and frameworks',
@@ -217,12 +217,12 @@ var resume = new Vue({
             'Yoga',
         ],
         projects: [
+            'Terraformed S3 bucket for Nuxt SSG and conditionally resourced Payload CMS on ECS',
             'Created a Twitch bot using Rust and made a chat service using Rust and gRPC',
             'Won 3rd place (20+ teams) at Indie Galactic Space Jam 2018 using UE4 and EEG Sensor',
             'Automated a multi-threaded Typescript project to hack nodes in a tree in a game',
             'Built a dashboard using Node, Express, Vue, Pug, Sass, MySQL to show orders on a map',
             'Refactored concurrency library (180,000+ lines) to submit to C++ Boost library',
-            'Performed in-depth analysis of multiple crypto blockchains for developing a dapp game on'
         ],
         webapp: 'https://goo.gl/5kq2cv',
         honors: [

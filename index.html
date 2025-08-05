@@ -50,9 +50,9 @@
                                 <li id="github">
                                     <i class="fab fa-github"></i><a v-bind:href="github">{{github}}</a>
                                 </li>
-                                <li id="twitch">
+                                <!-- <li id="twitch">
                                     <i class="fab fa-twitch"></i><a v-bind:href="twitch">{{twitch}}</a>
-                                </li>
+                                </li> -->
                                 <li id="portfolio">
                                     <i class="fas fa-rss"></i><a v-bind:href="portfolio">{{portfolio}}</a>
                                 </li>
@@ -155,7 +155,7 @@
                                     </div>
                                 </div>
                                 <ul class="duties">
-                                    <template v-for="duty in experience[2].duties.slice(0,2)">
+                                    <template v-for="duty in experience[2].duties.slice(0,3)">
                                         <li>{{duty}}</li>
                                     </template>
                                 </ul>
@@ -199,7 +199,7 @@
                                     </div>
                                 </div>
                                 <ul class="duties">
-                                    <template v-for="duty in experience[6].duties.slice(0,3)">
+                                    <template v-for="duty in experience[6].duties.slice(0,2)">
                                         <li>{{duty}}</li>
                                     </template>
                                 </ul>

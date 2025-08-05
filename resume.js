@@ -95,12 +95,13 @@ var resume = new Vue({
             },
             {
                 title: 'Software Engineer',
-                company: 'AWS Elastic Block Storage Team',
+                company: 'AWS',
                 start: '09/2021',
                 end: '02/2022',
                 duties: [
                     'Added I/O histograms and participated in on-call rotations to investigate latency complaints',
                     'Led critical validation effort for new hardware to add to production pool, improving testing tool',
+                    'Worked on Elastic Block Storage Team, ensuring backups were enabled via C++ manager',
                 ]
             },
             {
@@ -167,7 +168,7 @@ var resume = new Vue({
             }
         ],
         languages: [
-            'Vim',
+            'Git',
             'Rust',
             'Vue.js',
             'C++',
@@ -181,16 +182,15 @@ var resume = new Vue({
             'CSS',
             'Sass',
             'AWS',
-            'CMake',
             'React.js',
             'Node.js',
             '.NET',
             'SQL',
+            'Docker',
             'REST APIs',
             'Python',
             'Mongo',
             'Linux',
-            'FreeBSD',
             'Bash',
             'Terraform',
         ],
@@ -218,7 +218,7 @@ var resume = new Vue({
         ],
         projects: [
             'Terraformed S3 bucket for Nuxt SSG and conditionally resourced Payload CMS on ECS',
-            'Created a Twitch bot using Rust and made a chat service using Rust and gRPC',
+            'Wrote automation for a  chat service using Rust and gRPC',
             'Won 3rd place (20+ teams) at Indie Galactic Space Jam 2018 using UE4 and EEG Sensor',
             'Automated a multi-threaded Typescript project to hack nodes in a tree in a game',
             'Built a dashboard using Node, Express, Vue, Pug, Sass, MySQL to show orders on a map',

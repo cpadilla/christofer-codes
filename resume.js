@@ -76,7 +76,8 @@ var resume = new Vue({
                 start: '06/2023',
                 end: '06/2025',
                 duties: [
-                    'Created a React front end to automatically run multiple system jobs on the mainframe ',
+                    'Created React front end and SpringBoot backend to schedule and run jobs on IBM mainframe',
+                    'Set up automated test, build, and deployment pipelines to AWS ECS in GitHub Actions',
                     'Made 20+ systematic front end accessibility changes to ensure 508 compliance',
                     'Converted 10+ subproject Ant build project to use Maven; tested to ensure feature parity',
                 ]
@@ -88,6 +89,7 @@ var resume = new Vue({
                 end: '03/2023',
                 duties: [
                     'Created Integration tests (Kotlin) using docker-compose and wiremock to emulate gRPC server',
+                    'Integrated Kafka Streams with microservices to enable scalable, event-driven architectures',
                     'Created a github action as part of SOX compliance that uploads screenshots to a repository',
                     'Created 12 unit tests of over 6k lines to bring code coverage up to 100% for a repository',
                     'Added a new value to metrics across two different repositories, enabling search by id',
@@ -101,6 +103,7 @@ var resume = new Vue({
                 duties: [
                     'Added I/O histograms and participated in on-call rotations to investigate latency complaints',
                     'Led critical validation effort for new hardware to add to production pool, improving testing tool',
+                    'Monitored and troubleshot EBS volumes using AWS CloudWatch to ensure storage reliability',
                     'Worked on Elastic Block Storage Team, ensuring backups were enabled via C++ manager',
                 ]
             },
@@ -122,6 +125,7 @@ var resume = new Vue({
                 end: '04/2020',
                 duties: [
                     'Worked on upgrading ColdFusion Server 2016 to 2018 and converting CFML tags to CFSCript',
+                    'Provisioned and automated infrastructure with Terraform, including VPCs, subnets, and ECR',
                     'Used AWS to configure microservices running and accessibility from REST APIs',
                     'Used JavaScript to incorporate a new point of contact into generated ads for loan agents',
                 ]

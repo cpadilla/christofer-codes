@@ -77,8 +77,8 @@ var resume = new Vue({
                 end: '06/2025',
                 duties: [
                     'Created React front end and SpringBoot backend to schedule and run jobs on IBM mainframe',
+                    'Made 20+ systematic front end accessibility changes in HTML & CSS to ensure 508 compliance',
                     'Set up automated test, build, and deployment pipelines to AWS ECS in GitHub Actions',
-                    'Made 20+ systematic front end accessibility changes to ensure 508 compliance',
                     'Converted 10+ subproject Ant build project to use Maven; tested to ensure feature parity',
                 ]
             },

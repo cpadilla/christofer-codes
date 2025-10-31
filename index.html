@@ -208,7 +208,7 @@
                         <div id="projects">
                             <h5>プロジェクト PROJECTS</h5>
                             <ul>
-                                <template v-for="(project, index) in projects">
+                                <template v-for="(project, index) in projects.slice(0,6)">
                                     <li>{{project}}
                                         <!-- <span v-if="index == 2">: <a v-if="index == 2" v-bind:href="webapp">{{webapp}}</a></span> -->
                                     </li>

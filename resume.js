@@ -76,9 +76,9 @@ var resume = new Vue({
                 start: '06/2023',
                 end: '06/2025',
                 duties: [
-                    'Created React front end and SpringBoot backend to schedule and run jobs on IBM mainframe',
+                    'Created React SPA and Java/SpringBoot backend to schedule and run jobs on IBM mainframe',
+                    'Set up automated test, build, and deployment CI/CD pipelines to AWS in GitHub Actions',
                     'Made 20+ systematic front end accessibility changes in HTML/CSS to ensure 508 compliance',
-                    'Set up automated test, build, and deployment pipelines to AWS ECS in GitHub Actions',
                     'Converted 10+ subproject Ant build project to use Maven; tested to ensure feature parity',
                 ]
             },
@@ -114,7 +114,7 @@ var resume = new Vue({
                 end: '8/2021',
                 duties: [
                     'Developed and maintained custom Apex code within the Salesforce platform to facilitate robust data integrations between financial institutions and the nCino Bank Operating System',
-                    'Authored over 50 data mapping definitions using an internal domain-specific language to normalize external financial institution data',
+                    'Used Python to author over 50 data mapping definitions using an internal domain-specific language to normalize external financial institution data',
                     'Created 50+ mappings using in-house utility language as part of credit team',
                 ]
             },
@@ -124,10 +124,10 @@ var resume = new Vue({
                 start: '01/2020',
                 end: '04/2020',
                 duties: [
+                    'Used JavaScript and Node.js to incorporate a new point of contact into generated ads',
+                    'Used AWS to configure microservices running and accessibility from REST APIs',
                     'Worked on upgrading ColdFusion Server 2016 to 2018 and converting CFML tags to CFSCript',
                     'Provisioned and automated infrastructure with Terraform, including VPCs, subnets, and ECR',
-                    'Used AWS to configure microservices running and accessibility from REST APIs',
-                    'Used JavaScript to incorporate a new point of contact into generated ads for loan agents',
                 ]
             },
             {
@@ -221,12 +221,13 @@ var resume = new Vue({
             'Yoga',
         ],
         projects: [
+            'Wrote a music visualizer using Python and PyAudio, hanlding real-time events',
             'Terraformed S3 bucket for Nuxt SSG and conditionally resourced Payload CMS on ECS',
-            'Wrote automation for a  chat service using Rust and gRPC',
             'Won 3rd place (20+ teams) at Indie Galactic Space Jam 2018 using UE4 and EEG Sensor',
             'Automated a multi-threaded Typescript project to hack nodes in a tree in a game',
             'Built a dashboard using Node, Express, Vue, Pug, Sass, MySQL to show orders on a map',
             'Refactored concurrency library (180,000+ lines) to submit to C++ Boost library',
+            'Wrote automation for a  chat service using Rust and gRPC',
         ],
         webapp: 'https://goo.gl/5kq2cv',
         honors: [
